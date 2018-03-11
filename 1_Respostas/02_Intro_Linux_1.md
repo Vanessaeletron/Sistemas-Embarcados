@@ -17,4 +17,62 @@ tab.
 6. Quais botões do teclado apresentam instruções escritas anteriormente?
 Seta pra cima e seta pra braixo.
 
-7. Apresente os respectivos comandos no terminal para: (a) Obter mais informações sobre um comando. (b) Apresentar uma lista com os arquivos dentro de uma pasta. (c) Apresentar o caminho completo da pasta. (d) Trocar de pasta. (e) Criar uma pasta. (f) Apagar arquivos definitivamente. (g) Apagar pastas definitivamente. (h) Copiar arquivos. (i) Copiar pastas. (j) Mover arquivos. (k) Mover pastas. (l) Renomear pastas. (m) Apresentar o conteúdo de um arquivo. (n) Apresentar o tipo de um arquivo. (o) Limpar a tela do terminal. (p) Encontrar ocorrências de palavras-chave em um arquivo-texto. (q) Ordenar informações em um arquivo-texto. (r) Substituir ocorrências de palavras-chave em um arquivo-texto. (s) Conferir se dois arquivos são iguais. (t) Escrever algo na tela.
+7. Apresente os respectivos comandos no terminal para: 
+
+(a) Obter mais informações sobre um comando. 
+man 
+
+(b) Apresentar uma lista com os arquivos dentro de uma pasta. 
+ls 
+ls -l -> Apresenta detalhes do conteúdo listado como: permissões, tamanho do arquivo, usuário dono e
+outros.
+ls –a: Apresenta todo o conteúdo de um diretório inclusive os ocultos.
+
+(c) Apresentar o caminho completo da pasta. 
+pwd: Mostra o diretório atual. Sempre que o usuário tiver dúvidas em qual diretório está trabalhando no momento pode utilizar este comando.
+
+(d) Trocar de pasta. 
+cd.
+
+(e) Criar uma pasta. 
+mkdir.
+
+(f) Apagar arquivos definitivamente. 
+rm dir
+
+(g) Apagar pastas definitivamente.
+rmdir
+
+(h) Copiar arquivos. 
+cp
+
+(i) Copiar pastas. 
+cpdir
+
+(j) Mover arquivos. 
+mv
+
+(k) Mover pastas. 
+mvdir
+
+(l) Renomear pastas. 
+mv
+
+(m) Apresentar o conteúdo de um arquivo. 
+
+(n) Apresentar o tipo de um arquivo. 
+
+(o) Limpar a tela do terminal. 
+clear
+
+(p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+cat
+
+(q) Ordenar informações em um arquivo-texto. 
+
+(r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+
+(s) Conferir se dois arquivos são iguais.
+
+(t) Escrever algo na tela.
+grep
