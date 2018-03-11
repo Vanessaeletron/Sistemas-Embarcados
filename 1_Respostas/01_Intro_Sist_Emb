@@ -23,3 +23,5 @@ Arquitetura Von-Neumann: as intruções e os dados ficam juntos na memória.
 Arquitetura Harvard: dados e programas são armazenados em meios distintos.
 
 6. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+Constuído a partir de um designe ARM ele é um computador completo. Ele foi criado com propósitos educacionais então existe uma vasta 
+biblioteca,baixo custo e versatilidade.
