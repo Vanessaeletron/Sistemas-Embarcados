@@ -6,5 +6,5 @@ print("Qual o seu nome? \n");
 scanf ("%c", &nome);
 
 printf("Olá "%c",nome);
-return (0);
+return 0;
 }
