@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 main(){
-  char[255] = nome;
+  char nome[255];
+  
 print("Qual o seu nome? \n");
 scanf ("%s", &nome);
 
