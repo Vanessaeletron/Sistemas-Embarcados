@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 main(){
+  char[255] = nome;
 print("Qual o seu nome? \n");
-scanf ("%c", &nome);
+scanf ("%s", &nome);
 
-printf("Olá "%c",nome);
+printf("Olá "%s",nome);
 return 0;
 }
