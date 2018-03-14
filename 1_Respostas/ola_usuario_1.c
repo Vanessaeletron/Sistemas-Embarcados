@@ -4,7 +4,7 @@
 int main(){
   char nome[255];
   
-print("Qual o seu nome? \n");
+printf("Qual o seu nome? \n");
 scanf ("%s", nome);
 
 printf("Olá %s",nome);
