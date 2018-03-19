@@ -1,10 +1,9 @@
 Para todas as questões, compile-as com o gcc e execute-as via terminal.
 
-1.Crie um "Olá mundo!" em C.
+1. Crie um "Olá mundo!" em C.
 
 #include <stdio.h>
 #include <stdlib.h>
-
 int main(){
 printf("Olá Mundo! \n");
 return 0;
@@ -21,10 +20,8 @@ $ Ola Eu
 
 int main(){
   char nome[255];
-  
 printf("Qual o seu nome? \n");
 scanf ("%s", nome);
-
 printf("Olá %s \n",nome);
 return 0;
 }
@@ -73,9 +70,12 @@ Qual o seu nome?
 Olá ola
 
 Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
+
 $ ./ola_usuario_2 Eu
 $ Ola Eu
+
 Apresente os comportamentos do código anterior nos seguintes casos:
+
 (a) Se o usuário insere mais de um nome.
 
 $ ./ola_usuario_2 Eu Mesmo
@@ -95,7 +95,9 @@ $ echo Eu Mesmo | ./ola_usuario_2
 
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_2 < ola.txt
+
 Crie um código em C que faz o mesmo que o código da questão 4, e em seguida imprime no terminal quantos valores de entrada foram fornecidos pelo usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_3':
+
 $ ./ola_usuario_3 Eu
 $ Ola Eu
 $ Numero de entradas = 2
