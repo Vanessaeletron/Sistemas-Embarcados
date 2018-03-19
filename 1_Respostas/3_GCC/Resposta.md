@@ -2,14 +2,37 @@ Para todas as questões, compile-as com o gcc e execute-as via terminal.
 
 1.Crie um "Olá mundo!" em C.
 
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+printf("Olá Mundo! \n");
+return 0;
+       }
+
 2.Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
 
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu
 $ Ola Eu
 
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+  char nome[255];
+  
+printf("Qual o seu nome? \n");
+scanf ("%s", nome);
+
+printf("Olá %s \n",nome);
+return 0;
+}
+
 3. Apresente os comportamentos do código anterior nos seguintes casos:
+
 (a) Se o usuário insere mais de um nome.
+
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu Mesmo
 
@@ -20,26 +43,34 @@ Olá Eu
 
 $ ./ola_usuario_1
 $ Digite o seu nome: "Eu Mesmo"
+
 Só aparece Olá "Eu
 
 (c) Se é usado um pipe. Por exemplo:
 
 $ echo Eu | ./ola_usuario_1
+
 Ele imprime na tela: Olá Eu
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 
 $ echo Eu Mesmo | ./ola_usuario_1
-(e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
+
 Imprime na tela Olá Eu
 
+(e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
+
 $ echo "Eu Mesmo" | ./ola_usuario_1
-Olá Eu
+
+Imprime na tela Olá Eu
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_1 < ola.txt
+
+Qual o seu nome?
+Olá ola
 
 Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
 $ ./ola_usuario_2 Eu
