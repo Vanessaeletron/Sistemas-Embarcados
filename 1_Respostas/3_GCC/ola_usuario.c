@@ -7,6 +7,6 @@ int main(){
 printf("Qual o seu nome? \n");
 scanf ("%s", nome);
 
-printf("Olá %s",nome);
+printf("Olá %s \n",nome);
 return 0;
 }
