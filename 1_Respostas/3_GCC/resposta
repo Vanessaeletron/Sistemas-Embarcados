@@ -9,7 +9,8 @@ printf("Olá Mundo! \n");
 return 0;
        }
 
-2.Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
+2.Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, 
+considerando que o código criado recebeu o nome de 'ola_usuario_1':
 
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu
@@ -69,7 +70,9 @@ $ ./ola_usuario_1 < ola.txt
 Qual o seu nome?
 Olá ola
 
-Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
+Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), 
+e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 
+'ola_usuario_2':
 
 $ ./ola_usuario_2 Eu
 $ Ola Eu
