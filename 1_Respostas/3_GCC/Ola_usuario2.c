@@ -3,6 +3,6 @@
 
 int main (int argc, const char *argv[ ]){
 printf("Olá %s \n", argv[1]);
-printf("Nº de argumentos: %d \n", argc);
+printf("Valores de entrada: %d \n", argc);
 return 0;
 }
