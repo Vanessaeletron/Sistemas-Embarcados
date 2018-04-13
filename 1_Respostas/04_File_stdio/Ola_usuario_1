@@ -1,0 +1,42 @@
+//A função exit
+//A função exit da biblioteca stdlib interrompe a execução do programa e fecha todos os arquivos que o programa tenha porventura aberto. 
+//Se o argumento da função for 0, o sistema operacional é informado de que o programa terminou com sucesso; caso contrário, o sistema 
+//operacional é informado de que o programa terminou de maneira excepcional.
+//O argumento da função é tipicamente a macro EXIT_FAILURE, que vale 1, ou a macro EXIT_SUCCESS, que vale 0.
+//A propósito, a instrução  return XXX;  que encerra o código da função  main  é equivalente a  exit (XXX);.
+
+//sprintf
+//A função sprintf tem a mesma funcionalidade da função printf. A saída resultante, após a execução dos formatos, será colocado na 
+//variável indicada por endereçoString.Cabe ao programador garantir que a variável tenha espaço suficiente.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, const char *argv[])
+{
+    char nome[50], vetor[50];
+    int idade;
+    
+    FILE *fp;
+    
+    printf("Digite seu nome:");
+    scanf("%s", &nome);
+    printf("\n\n Digite sua idade:");
+    scanf("%d", &idade);
+
+    sprintf(vetor, "%s.txt", nome);
+
+    fp = fopen(nome_arq,"w");
+    if(!fp){
+        printf("Não foi possivel abrir o arquivo!");
+        exit(0);
+    }
+
+    fprintf(fp, "Nome: %s\n", nome);
+    fprintf(fp, "Idade: %d \n", idade);
+
+    fclose(fp);
+
+    return 0;
+}
+
