@@ -32,19 +32,28 @@ drwxr-xr-x  3 root root 4096 abr  2  2017 .local
 drwxr-xr-x  2 root root 4096 mai 21  2017 .nano
 
 5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
+cal oct 2008; cal oct 2009; cal oct 2010; cal oct 2011; cal oct 2012; cal oct 2013; cal oct 2014; cal oct 2015; cal oct 2016; 
+cal oct 2017; cal oct 2018;
 
 Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip
 
-Liste somente os arquivos com extensão .txt.
+6. Liste somente os arquivos com extensão .txt.
+ls *.txt
 
-Liste somente os arquivos com extensão .png.
+7. Liste somente os arquivos com extensão .png.
+ls *.png
 
-Liste somente os arquivos com extensão .jpg.
+8. Liste somente os arquivos com extensão .jpg.
+ls *jpg
 
-Liste somente os arquivos com extensão .gif.
+9. Liste somente os arquivos com extensão .gif.
+ls *.gif
 
-Liste somente os arquivos que contenham o nome 'cal'.
+10. Liste somente os arquivos que contenham o nome 'cal'.
+ls *cal*
 
-Liste somente os arquivos que contenham o nome 'tux'.
+11. Liste somente os arquivos que contenham o nome 'tux'.
+ls *tux*
 
-Liste somente os arquivos que comecem com o nome 'tux'.
+12. Liste somente os arquivos que comecem com o nome 'tux'.
+ls tux*
