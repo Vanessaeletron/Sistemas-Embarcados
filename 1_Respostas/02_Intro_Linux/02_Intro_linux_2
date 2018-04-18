@@ -8,12 +8,30 @@ cat Ola_Mundo.txt
 cd root
 ls -a
 
+bin   cdrom  etc   initrd.img  lib64       media  opt   root  sbin  srv  tmp  var
+boot  dev    home  lib         lost+found  mnt    proc  run   snap  sys  usr  vmlinuz
+
 3. Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
 file 
+Usage: file [-bcEhikLlNnprsvzZ0] [--apple] [--extension] [--mime-encoding] [--mime-type]
+            [-e testname] [-F separator] [-f namefile] [-m magicfiles] file ...
+       file -C [-m magicfiles]
+       file [--help]
+
 
 4. Apresente somente as pastas dentro da pasta 'root'.
+ls -al | grep "^d"
 
-Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
+drwx------  8 root root 4096 mar 19 01:14 .
+drwxr-xr-x 24 root root 4096 abr  2  2017 ..
+drwx------  5 root root 4096 mar 19 01:14 .cache
+drwxr-xr-x  4 root root 4096 abr  2  2017 .config
+drwx------  3 root root 4096 mar 19 01:14 .dbus
+drwx------  3 root root 4096 abr  2  2017 .gnupg
+drwxr-xr-x  3 root root 4096 abr  2  2017 .local
+drwxr-xr-x  2 root root 4096 mai 21  2017 .nano
+
+5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
 
 Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip
 
